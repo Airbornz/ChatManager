@@ -1,0 +1,8 @@
+name: ChatManager
+main: com.Airbornz.ChatManager.Core
+version: 1.0
+author: Airbornz
+commands:
+  chat:
+    usage: /chat (toggle / clear / mute / switch / help)
+    description: Main chat command.

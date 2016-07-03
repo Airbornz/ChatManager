@@ -1,0 +1,30 @@
+#Chat Manager Config
+
+#Permission Notes:
+# chatmanager.toggle - Be able to toggle chat.
+# chatmanager.chat - Be able to talk even when disabled!
+#chatmanager.clear - Clear the chat.
+#chatmanager.mute - Mute and unmute players.
+#chatmanager.switch - Move players between chats.
+#chatmanager.talk - Talk even when chat is disabled.
+
+#Enable chat on launch?
+Enabled: true
+
+#Prefix.
+Prefix: §e<Chat> 
+
+#How many lines to push up chat.
+Lines: 100
+
+#Have chat channels - Global, World, Staff, None
+#	Later on you will be able to customize channels :)
+MultiChat: true
+
+# --- These only apply if multi chat is on ---
+GlobalPrefix: §e[G] §f
+WorldPrefix: §e[W] §f
+StaffPrefix: §e[Staff] §f
+
+#Reset config?
+Reset: false
